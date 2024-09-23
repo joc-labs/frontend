@@ -19,5 +19,5 @@ spec:
         - name: frontend
           image: DOCKER_IMAGE
           ports:
-            - containerPort: 3000
+            - containerPort: 80
       restartPolicy: Always
